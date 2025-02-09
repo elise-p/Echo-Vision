@@ -15,7 +15,7 @@ train_results = model.train(
 metrics = model.val()
 
 # Perform object detection on an image
-results = model('https://images.pexels.com/photos/139303/pexels-photo-139303.jpeg?cs=srgb&dl=pexels-joshsorenson-139303.jpg&fm=jpg')
+results = model('https://th-thumbnailer.cdn-si-edu.com/aSh561F_GKG2lpzgEmvYnb0Mxtc=/fit-in/1200x0/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/30/15/3015dc19-dd2f-430f-8913-4af9b7a99e2c/abbey_road.jpg')
 results[0].show()
 
 # Export the model to ONNX format
